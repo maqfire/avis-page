@@ -4,23 +4,59 @@
 <meta charset="UTF-8">
 <title>Votre avis compte</title>
 <style>
-body { font-family: Arial, sans-serif; text-align: center; background-color: #f7f7f7; margin: 0; padding: 0; }
-.container { max-width: 600px; margin: 0 auto; padding: 20px; }
-h1 { color: #333; }
-p { color: #555; }
-.button { display: inline-block; margin: 10px; padding: 15px 20px; font-size: 18px; border-radius: 5px; text-decoration: none; color: white; }
-.button-google { background-color: #4285F4; }
-.button-whatsapp { background-color: #25D366; }
-.button:hover { opacity: 0.8; }
+body { 
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  background-color: #f7f7f7; 
+  margin: 0; 
+  padding: 0; 
+}
+.container { 
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+h1 { 
+  color: #333; 
+}
+p { 
+  color: #555; 
+}
+.button { 
+  display: block;           /* pleine largeur */
+  width: 100%;              /* occupe tout l'espace */
+  margin: 15px 0; 
+  padding: 20px; 
+  font-size: 20px; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold; 
+  text-align: center;
+  box-sizing: border-box;
+}
+.button-google { 
+  background-color: #4285F4; 
+}
+.button-whatsapp { 
+  background-color: #25D366; 
+}
+.button:hover { 
+  opacity: 0.85; 
+}
 </style>
 </head>
 <body>
 <div class="container">
     <h1>Votre avis nous intéresse&nbsp;!</h1>
-    <p>Si vous avez apprécié votre expérience chez nous, cliquez sur le bouton ci‑dessous pour laisser un avis.</p>
-    <a href="https://g.page/r/CQWPvwHjbuEREAE/review" class="button button-google" target="_blank">❤️</a>
-    <p>Si quelques choses ne vous a pas satisfait, faites‑nous part de vos remarques en nous envoyant un message sur WhatsApp :</p>
-    <a href="https://wa.me/33763949179" class="button button-whatsapp" target="_blank">Nous contacter</a>
+    <p>Si vous avez apprécié votre expérience chez nous, cliquez sur le bouton ci-dessous pour laisser un avis.</p>
+    <a href="https://g.page/r/CQWPvwHjbuEREAE/review" class="button button-google" target="_blank">
+        Laisser un avis Google
+    </a>
+    <p>Si quelque chose ne vous a pas satisfait, faites-nous part de vos remarques en nous envoyant un message sur WhatsApp :</p>
+    <a href="https://wa.me/33763949179" class="button button-whatsapp" target="_blank">
+        Nous contacter sur WhatsApp
+    </a>
 </div>
 </body>
 </html>
